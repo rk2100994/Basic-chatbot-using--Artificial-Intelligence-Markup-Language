@@ -1,0 +1,13 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!--AIML unit -->
+    <category>
+        <!-- Pattern to match in user input -->
+        <pattern>LOAD AIML</pattern>
+        <!-- Template is the response to the pattern -->
+        <!-- This learns an aiml file -->
+        <template>
+            <learn>basic_chat.aiml</learn>
+            <!-- You can add more aiml files here -->
+        </template>
+    </category>
+</aiml>
